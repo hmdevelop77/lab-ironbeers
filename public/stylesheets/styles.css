@@ -15,9 +15,12 @@ body{
   justify-content: center;
   margin-left: 40%;
 }
-.navbar{
-    background-color:#2081c3  ;
-    
+.bg-light {
+    background-color: #2081c3!important;
+}
+.navbar {
+    --bs-navbar-color: #f8f9fa;
+    --bs-navbar-active-color: #f8f9fa;
 }
 .button-both{
     display: flex;
